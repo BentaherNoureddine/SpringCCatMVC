@@ -26,9 +26,7 @@ public class SpringCCatMvcApplication implements CommandLineRunner {
 	@Autowired
 	ProduitRepository ipRepository;
 	@Override
-	public void run(String... args) throws Exception {
-		
-		
+	public void run(String... args) throws Exception {	
 		Produit p = new Produit();
 		p.setReference("PR100");
 		p.setDesignation("PC P");
